@@ -1,6 +1,10 @@
 # Alchemy2 docker image
-Docker image for Alchemy2 MLN software (`learnstruct`, `learnwts`, and `infer`):
+Docker image for Alchemy2 MLN software (`learnstruct`, `learnwts` and `infer`)
+
 http://alchemy.cs.washington.edu/
+
+Note: Follow this [doc](COMPILE_ALCHEMY.md) if you prefer to compile Alchemy on Ubuntu7, instead of using a Docker image.
+
 
 Put your MLN and db files in a directory such as `/Users/david/data`. For instance:
 

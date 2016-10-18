@@ -48,3 +48,14 @@ RUN cd /tmp/ && \
   cd ../.. && \
   rm -Rf alchemy-2 && \
   rm -Rf alchemy-2.tar.gz
+
+RUN apt-get remove -y wget gcc-4.9 g++-4.9 m4 make
+
+# test it is installed
+RUN which learnstruct
+
+# test it is installed
+RUN which learnwts
+
+# test it is installed
+RUN which infer
