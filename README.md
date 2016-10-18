@@ -1,10 +1,12 @@
 # Alchemy2 docker image
-Docker image for Alchemy2 MLN software (`learnstruct`, `learnwts` and `infer`)
+
+Run Alchemy2 MLN software (`learnstruct`, `learnwts` and `infer`) in any computer without the need of compiling it.
 
 http://alchemy.cs.washington.edu/
 
 Note: Follow this [doc](COMPILE_ALCHEMY.md) if you prefer to compile Alchemy on Ubuntu7, instead of using a Docker image.
 
+## Example
 
 Put your MLN and db files in a directory such as `/Users/david/data`. For instance:
 
@@ -17,7 +19,7 @@ $ wget https://alchemy.cs.washington.edu/data/tutorial/smoking/smoking-train.db
 $ wget https://alchemy.cs.washington.edu/data/tutorial/smoking/smoking-test.db
 ```
 
-Then download and start a docker container with the alchemy software installed:
+Install [Docker](https://www.docker.com/), and then execute this command to download and start a docker container with the alchemy software installed:
 
 ```
 $ docker run -ti --name alchemy2 -v /Users/david/data/:/data dportabella/docker-alchemy2 bash
