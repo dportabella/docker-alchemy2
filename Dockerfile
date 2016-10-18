@@ -30,6 +30,7 @@ RUN cd /tmp/ && \
   ./configure && \
   make && \
   make install && \
+  cd .. && \
   rm -Rf flex-2.5.4 && \
   rm -Rf flex-2.5.4a.tar.gz
 
