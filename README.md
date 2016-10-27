@@ -1,6 +1,6 @@
 # Alchemy2 docker image
 
-Run Alchemy2 MLN software (`learnstruct`, `learnwts` and `infer`) in any computer without the need of compiling it.
+Run Alchemy2 MLN software (`learnstruct`, `learnwts`, `infer`, `liftedinfer` and `runliftedinfertests`) in any computer without the need of compiling it.
 
 http://alchemy.cs.washington.edu/
 

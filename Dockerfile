@@ -54,9 +54,7 @@ RUN apt-get remove -y wget gcc-4.9 g++-4.9 m4 make
 
 # test it is installed
 RUN which learnstruct
-
-# test it is installed
 RUN which learnwts
-
-# test it is installed
 RUN which infer
+RUN which liftedinfer
+RUN which runliftedinfertests
